@@ -1,0 +1,27 @@
+<h2>ユーザー登録</h2>
+<form action="/post">
+    <div>
+        <p><label for="username">氏名</label></p>
+        <input type="text" id="username">
+    </div>
+    <div>
+        <p>利き手</p>
+        <label><input type="radio" id="dominant_hand">左利き</label>
+        <label><input type="radio" id="dominant_hand">右利き</label>
+        <label><input type="radio" id="dominant_hand">両利き</label>
+    </div>
+    <div>
+        <p>好きなエディタ</p>
+        <label><input type="checkbox" id="editor">Vi</label>
+        <label><input type="checkbox" id="editor">Vim</label>
+        <label><input type="checkbox" id="editor">Neovim</label>
+        <label><input type="checkbox" id="editor">Emacs</label>
+    </div>
+    <div>
+        <p>自己紹介</p>
+        <textarea id="introduction"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="送信する">
+    </div>
+</form>
